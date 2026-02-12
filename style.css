@@ -1,0 +1,41 @@
+body{
+
+  /* display: flex; */
+  font-family: 'Roboto'
+}
+.con{
+ display: flex; 
+justify-content: center;
+align-items: center;
+width: 500px;
+flex-wrap: wrap ;
+
+}
+
+.da{
+
+ display: flex; 
+justify-content: center;
+align-items: center;
+
+}
+
+/* div{
+border: 1px solid cadetblue;
+} */
+
+
+
+
+ .red:hover {
+  background-color: yellow;
+  opacity: 10%;
+
+  
+}
+
+.active-hover{
+  opacity: 10%;
+
+  background-color: black;
+}
