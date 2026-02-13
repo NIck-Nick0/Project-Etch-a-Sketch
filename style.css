@@ -29,13 +29,13 @@ border: 1px solid cadetblue;
 
  .red:hover {
   background-color: yellow;
-  opacity: 10%;
+  opacity: 90%;
 
   
 }
 
 .active-hover{
-  opacity: 10%;
+  opacity: 50%;
 
   background-color: black;
 }
