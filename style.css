@@ -7,7 +7,7 @@ body{
  display: flex; 
 justify-content: center;
 align-items: center;
-width: 500px;
+width: 502px;
 flex-wrap: wrap ;
 
 }
@@ -29,13 +29,13 @@ border: 1px solid cadetblue;
 
  .red:hover {
   background-color: yellow;
-  opacity: 90%;
+  opacity: 50%;
 
   
 }
 
-.active-hover{
-  opacity: 50%;
+/* .active-hover{
+  opacity: 10%;
 
-  background-color: black;
-}
+  background-color: red
+} */

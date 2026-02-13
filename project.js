@@ -41,6 +41,10 @@ for (let i = 0; i < elm*elm; i++) {
   myDiv.style.boxSizing = "border-box";
    myDiv.addEventListener('mouseenter', function() {
   this.classList.add('active-hover');
+myDiv.style.opacity=parseFloat(myDiv.style.opacity) + 0.1
+
+const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+    this.style.backgroundColor = randomColor;
 
 });
 
